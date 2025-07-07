@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng so sánh Spring MVC vs Spring Boot</title>
+    <!-- Link Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Bảng So Sánh Spring MVC và Spring Boot</h2>
+    <table class="table table-bordered table-striped table-hover align-middle">
+        <thead class="table-dark">
+        <tr>
+            <th>Tiêu chí</th>
+            <th>Spring MVC</th>
+            <th>Spring Boot</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Khái niệm</td>
+            <td>Là module của Spring Framework, dùng để xây dựng ứng dụng web theo mô hình MVC truyền thống.</td>
+            <td>Là framework mở rộng dựa trên Spring, giúp phát triển ứng dụng Spring nhanh chóng với cấu hình tối thiểu.</td>
+        </tr>
+        <tr>
+            <td>Cấu hình</td>
+            <td>Cần cấu hình thủ công nhiều file XML hoặc JavaConfig, phải tự cấu hình DispatcherServlet, ViewResolver, DataSource, v.v.</td>
+            <td>Hầu như không cần cấu hình thủ công, sử dụng auto-configuration, chỉ cần cấu hình những gì thực sự đặc biệt.</td>
+        </tr>
+        <tr>
+            <td>Khởi tạo dự án</td>
+            <td>Thường phải tạo project từ đầu, tự thêm các dependency cần thiết, cấu trúc thư mục thủ công.</td>
+            <td>Có thể tạo nhanh qua Spring Initializr, project mẫu tự động sinh ra đầy đủ cấu trúc và dependency cơ bản.</td>
+        </tr>
+        <tr>
+            <td>Quản lý phụ thuộc</td>
+            <td>Phải tự thêm và quản lý version các thư viện trong file build, dễ gặp lỗi xung đột version.</td>
+            <td>Được quản lý tập trung qua Spring Boot Starter, tự động chọn version phù hợp, tránh xung đột.</td>
+        </tr>
+        <tr>
+            <td>Thời gian phát triển</td>
+            <td>Tốn nhiều thời gian cho việc cấu hình, setup ban đầu và xử lý lỗi cấu hình.</td>
+            <td>Rút ngắn thời gian phát triển nhờ cấu hình tự động, dễ dàng mở rộng và tích hợp.</td>
+        </tr>
+        <tr>
+            <td>Triển khai & chạy</td>
+            <td>Cần build war và triển khai lên server (Tomcat, Jetty, ...).</td>
+            <td>Có thể chạy trực tiếp với <code>java -jar</code>, tích hợp sẵn server nhúng.</td>
+        </tr>
+        <tr>
+            <td>Hỗ trợ microservices</td>
+            <td>Không tối ưu cho microservices, chủ yếu dùng cho ứng dụng đơn lẻ (monolithic).</td>
+            <td>Hỗ trợ mạnh mẽ cho microservices, tích hợp tốt với Spring Cloud, Docker, Kubernetes,...</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
