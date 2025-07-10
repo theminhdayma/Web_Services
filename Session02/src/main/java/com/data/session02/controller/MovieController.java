@@ -18,14 +18,14 @@ public class MovieController {
     @GetMapping
     public String listMovies(Model model) {
         model.addAttribute("movies", movieService.getAllMovies());
-        return "movie/movie-list";
+        return "movie/list";
     }
 
 
     @GetMapping("/add")
     public String showAddForm(Model model) {
         model.addAttribute("movie", new Movie());
-        return "movie/movie-add";
+        return "movie/add";
     }
 
 
@@ -43,7 +43,7 @@ public class MovieController {
             return "redirect:/movies";
         }
         model.addAttribute("movie", movie);
-        return "movie/movie-edit";
+        return "movie/edit";
     }
 
 

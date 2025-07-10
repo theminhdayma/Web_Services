@@ -45,7 +45,7 @@ public class ShowTimeController {
         model.addAttribute("selectedTheaterId", theaterId);
         model.addAttribute("selectedScreenRoomId", screenRoomId);
 
-        return "showtime/showtime-list";
+        return "showtime/list";
     }
 
 
@@ -54,7 +54,7 @@ public class ShowTimeController {
         model.addAttribute("showtime", new Schedule());
         model.addAttribute("movies", movieService.getAllMovies());
         model.addAttribute("screenRooms", screenRoomService.getAllScreenRooms());
-        return "showtime/showtime-add";
+        return "showtime/add";
     }
 
 
@@ -74,7 +74,7 @@ public class ShowTimeController {
         model.addAttribute("showtime", showtime);
         model.addAttribute("movies", movieService.getAllMovies());
         model.addAttribute("screenRooms", screenRoomService.getAllScreenRooms());
-        return "showtime/showtime-edit";
+        return "showtime/edit";
     }
 
     @PostMapping("/edit/{id}")
