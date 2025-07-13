@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h2>Danh sách vé của bạn</h2>
+
+
+<div th:each="b : ${bookings}" class="card my-2 p-3">
+  <h5 th:text="'Chuyến bay: ' + ${b.flight.flightNumber}"></h5>
+  <p th:text="'Từ ' + ${b.flight.departure} + ' → ' + ${b.flight.destination}"></p>
+  <p th:text="'Khách: ' + ${b.customerName}"></p>
+  <p th:text="'Thời gian: ' + ${b.bookingTime}"></p>
+  <p th:text="'Trạng thái: ' + ${b.status}"></p>
+
+  <form
+          th:action="@{/cancel/{id}(id=${b.id})}"
+          method="post">
+    <input type="hidden" name="phone" th:value="${phone}" />
+    <button type="submit" class="btn btn-danger">Hủy vé</button>
+  </form>
+</div>
+
+
+</body>
+</html>
