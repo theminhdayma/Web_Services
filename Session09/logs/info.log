@@ -1,0 +1,35 @@
+2025-07-21 02:23:50 [restartedMain] INFO  c.d.session09.Session09Application - Starting Session09Application using Java 17.0.15 with PID 9940 (C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09\build\classes\java\main started by USER-PC in C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09)
+2025-07-21 02:23:50 [restartedMain] INFO  c.d.session09.Session09Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 02:23:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-21 02:23:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53da308c
+2025-07-21 02:23:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-21 02:23:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-21 02:23:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-21 03:16:14 [restartedMain] INFO  c.d.session09.Session09Application - Starting Session09Application using Java 17.0.15 with PID 13548 (C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09\build\classes\java\main started by USER-PC in C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09)
+2025-07-21 03:16:14 [restartedMain] INFO  c.d.session09.Session09Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 03:16:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-21 03:16:16 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1222958e
+2025-07-21 03:16:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-21 03:16:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-21 03:16:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-21 03:17:25 [restartedMain] INFO  c.d.session09.Session09Application - Starting Session09Application using Java 17.0.15 with PID 33552 (C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09\build\classes\java\main started by USER-PC in C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09)
+2025-07-21 03:17:25 [restartedMain] INFO  c.d.session09.Session09Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 03:17:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-21 03:17:28 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@538ac46f
+2025-07-21 03:17:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-21 03:17:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-21 03:17:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-21 03:18:56 [restartedMain] INFO  c.d.session09.Session09Application - Starting Session09Application using Java 17.0.15 with PID 27464 (C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09\build\classes\java\main started by USER-PC in C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09)
+2025-07-21 03:18:56 [restartedMain] INFO  c.d.session09.Session09Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 03:18:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-21 03:18:58 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@160c2906
+2025-07-21 03:18:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-21 03:18:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-21 03:18:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-21 03:19:57 [restartedMain] INFO  c.d.session09.Session09Application - Starting Session09Application using Java 17.0.15 with PID 2924 (C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09\build\classes\java\main started by USER-PC in C:\Rekkei-Academy\BE-CTDL-GT\Web_Services\Session09)
+2025-07-21 03:19:57 [restartedMain] INFO  c.d.session09.Session09Application - No active profile set, falling back to 1 default profile: "default"
+2025-07-21 03:19:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-21 03:19:59 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22404d2f
+2025-07-21 03:19:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-21 03:20:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-21 03:20:00 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
