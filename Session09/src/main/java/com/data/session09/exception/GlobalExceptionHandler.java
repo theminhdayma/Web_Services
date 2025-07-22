@@ -52,22 +52,22 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler(RuntimeException.class)
-    public ResponseEntity<Map<String, Object>> handleRuntimeException(
-            RuntimeException ex, WebRequest request) {
-
-        logger.error("RuntimeException xảy ra: {} | Request: {} | Stack trace: ",
-                ex.getMessage(), request.getDescription(false), ex);
-
-        Map<String, Object> errorDetails = createErrorResponse(
-                HttpStatus.INTERNAL_SERVER_ERROR.value(),
-                "Internal Server Error",
-                "Đã xảy ra lỗi hệ thống. Vui lòng thử lại sau.",
-                request.getDescription(false)
-        );
-
-        return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
-    }
+//    @ExceptionHandler(RuntimeException.class)
+//    public ResponseEntity<Map<String, Object>> handleRuntimeException(
+//            RuntimeException ex, WebRequest request) {
+//
+//        logger.error("RuntimeException xảy ra: {} | Request: {} | Stack trace: ",
+//                ex.getMessage(), request.getDescription(false), ex);
+//
+//        Map<String, Object> errorDetails = createErrorResponse(
+//                HttpStatus.INTERNAL_SERVER_ERROR.value(),
+//                "Internal Server Error",
+//                "Đã xảy ra lỗi hệ thống. Vui lòng thử lại sau.",
+//                request.getDescription(false)
+//        );
+//
+//        return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
+//    }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGlobalException(
@@ -96,11 +96,5 @@ public class GlobalExceptionHandler {
         errorDetails.put("path", path.replace("uri=", ""));
 
         return errorDetails;
-    }
-
-    @ExceptionHandler(Exception.class)
-    public ResponseEntity<String> handleAllExceptions(Exception ex) {
-        log.error("Đã xảy ra lỗi: {}", ex.getMessage(), ex);
-        return new ResponseEntity<>("Đã có lỗi xảy ra trong hệ thống. Vui lòng thử lại sau.", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
